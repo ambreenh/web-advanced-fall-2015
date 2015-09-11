@@ -1,0 +1,35 @@
+body {
+  	font-family: 'Questrial', sans-serif;
+  	text-align: center;
+}
+
+nav {
+	font-family: 'Roboto', sans-serif;
+	font-size: 56px;
+}
+
+nav a{
+	color: #333;
+	font-size: 42px;
+	font-weight: 700;
+	padding: 20px;
+}
+
+h1,h2 {
+	font-family: 'Unna', sans-serif;
+}
+
+hr {
+	border-color: #FF0033;
+
+}
+
+footer span {
+	color: #FF0033;
+}
+
+/*style.css */
+
+ul,ol, dl, h2 {
+	text-align: left;
+}

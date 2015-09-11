@@ -1,0 +1,138 @@
+/*---------------------------------
+  -- INSPIRED BY / Aves UI Kit Color Palette --
+  -- https://dribbble.com/shots/1706500-Aves-UI-Kit-Color-Palette --
+-----------------------------------*/
+
+body {
+  background: #999;
+}
+
+.container {
+  border: solid 10px #c96;
+  background: #fff;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10%;
+  height: 550px;
+  padding: 20px 0 20px 20px;
+}
+
+.color-box {
+  float: right;
+  width: 280px;
+  margin: 0 20px 20px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.color-name {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-palette {
+  float: right;
+  width: 50%;
+  height: 100px;
+}
+
+.teal-left {
+  background: #A0CECB;
+}
+
+.teal-right {
+  background: #7DB1B1;
+}
+
+.straw-left {
+  background: #E8CE4D;
+}
+
+.straw-right {
+  background: #C0C341;
+}
+
+.plum-left {
+  background: #8067B7;
+}
+
+.plum-right {
+  background: #6A50A7;
+}
+
+.ruby-left {
+  background: #D8334A;
+}
+
+.ruby-right {
+  background: #BF263C;
+}
+
+.gradient-left {
+  background: -webkit-linear-gradient(#A0CECB, #C0C341); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#A0CECB, #C0C341); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#A0CECB, #C0C341); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#A0CECB, #C0C341); /* Standard syntax */
+}
+
+.gradient-right {
+  background: -webkit-linear-gradient(#8067B7, #BF263C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#8067B7, #BF263C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#8067B7, #BF263C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#8067B7, #BF263C); /* Standard syntax */
+}
+
+.gradient2-left {
+  background: -webkit-linear-gradient(left top, #A0CECB, #C0C341); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #A0CECB, #C0C341); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #A0CECB, #C0C341); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #A0CECB, #C0C341); /* Standard syntax */
+}
+
+.gradient2-right {
+  background: -webkit-linear-gradient(left top, #8067B7, #BF263C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #8067B7, #BF263C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #8067B7, #BF263C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #8067B7, #BF263C); /* Standard syntax */
+}
+
+.info {
+  background: #3C3B3D;
+  float: left;
+  width: 100%;
+  padding: 20px 20px 15px 20px;
+}
+
+#color-name {
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0 0 4px 0;
+}
+
+div > span:first-of-type {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+  margin: 0 20px 0 0;
+}
+
+/*You can also use:  div > span:first-of-type*/
+
+.color-right {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+  margin: 0;
+}
+
+/* You can also use:  div > span:first-of-type + span; */
+
+#container {
+  
+}
