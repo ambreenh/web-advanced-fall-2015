@@ -17,14 +17,14 @@ var userFeed = new Instafeed({
 userFeed.run();
 */
 
-/* Get images by location
+Get images by location
 var feed = new Instafeed({
     clientId: 'YOUR_CLIENT_ID',
     get: 'location',
     locationId: 54115074
 });
 feed.run();
-*/
+
 
 /* create two separate instances of Instafeed
 var tag1Feed = new Instafeed({
@@ -52,7 +52,7 @@ to
 
 */
 
-
+/*
 function getMultipleTags (tags) {
     var feeds = [];
     for (var i=0, len=tags.length; i < len; i++) {
@@ -71,3 +71,4 @@ var myTags = getMultipleTags(['new york', 'paris', 'london']);
 for(var i=0, len=myTags.length; i < len; i++) {
     myTags[i].run();
 }
+*/
