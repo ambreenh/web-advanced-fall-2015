@@ -1,0 +1,345 @@
+@media only screen and (min-width : 1720px) {
+ #landing{
+ 	max-height: 1440px;
+ }
+#ninos{
+ 	max-height: 1100px;
+ }
+
+#bio {
+ 	font-size: 1.5em;
+ 	line-height: 65px;
+ }
+#ninos ul a {
+ 	padding: 50px 5px;
+ 	font-size: 1.3em;
+}
+#sound{	
+ max-height:1100px;
+}
+#vinyl {
+	width:50%;
+}
+#sound ul{
+	width:350px;
+}
+#sound ul li a{
+	font-size: 1.3em;
+	padding:40px 5px;
+}
+#vision{
+	height:auto;
+	max-height: 1300px;
+}
+#calendar{
+	font-size: 1.6em;
+}
+footer {
+	max-height: 485px;
+	font-size: 1.3em;
+}
+}
+
+@media only screen and (max-width: 1055px){
+	.container{
+		width:77%;
+	}
+}
+@media only screen and (max-width: 1020px){
+	.nav{
+		height: 60px;
+	}
+	nav #menu{
+		display: none;
+	}
+	nav #menu li{
+		float: none;
+		margin: 0;
+		text-align: center;
+		height: auto;
+		padding: 20px;
+	}
+    nav #menu li a{
+    	text-align: center;
+		float:none;
+	}		
+	nav {
+		margin: 22px 0 0 0;
+	}
+	#menu{
+		position: absolute;
+		top: 35px;	
+		margin:0;
+		display: block;
+		float: none;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		font-size:1.2em; 
+		background-color:white;
+   }
+	
+	#ninos #bio{
+		width: 80%;
+		margin: 20% auto 5% auto;
+	}
+
+	#ninos ul li a{
+	 font-size: .9em;
+	 min-width: 125px;
+	}
+
+	#calendar table{
+		width:85%;
+	}
+}
+@media only screen and (max-width: 965px){
+	.container{
+		width:70%;
+	}
+
+	#sound img {
+		width:150%;
+		float: none;
+		margin: -13% auto 9% 29%;
+	}
+	#stack{
+		position: relative;
+		width: 90%;
+		display: block;
+	}
+	#stack{
+		width:100%;
+		margin: 0 auto;
+	}
+	#stack li a{
+	  display: block;	
+	  float:left;
+	  text-align: center;
+	  width:40%;
+	  min-width: 110px;
+	  min-width: 110px;
+	  height: auto;
+	  padding: 25px 5px;
+	  border: 2px solid #1C1BBD;
+	  text-decoration: none;
+	  color:#1C1BBD; 
+	}
+	#buy a{
+		margin-right: 20%;
+	}
+    #stream{
+    	top:0;
+	}
+	#bio h3{
+		width:70%;
+	}
+	#bio ul{
+		width:70%;
+	}
+	#bio ul li{
+	 	font-size:.8em;
+	}
+}
+
+@media only screen and (max-width:800px){
+	#facebook, #insta a {
+    margin-right: 9.5%;
+}
+
+
+nav a {
+	margin: 0 7px;
+}
+
+
+	#ninos ul {
+		margin-top: -15%;
+	}
+
+
+    #ninos ul li a {
+    font-size: .9em;
+    min-width: 131px;
+    margin: 0 auto 5px auto;
+    float: none;
+    display: block;
+}
+
+}
+
+@media only screen and (max-width:679px){
+
+
+
+	#bio li a{
+		display: block;
+		float: none;
+		width:100%;
+		margin-bottom: 3%;
+	}
+	#bio h3{
+		font-size: .8em;
+	}
+	#bio{
+		transform: translateY(-30%);
+	}
+	#ninos{
+		min-height: 750px;
+	}
+
+	#ninos #bio{
+		width: 80%;
+		margin: 40% auto 5% auto;
+	}
+}
+@media only screen and (max-width: 645px){
+     #stack li a{
+		float:none;
+		width:100%;
+		margin-bottom: 3%;
+	}
+	.button{
+		width:100%;
+	}
+	#sound img{
+		min-width:400px;
+	}
+}
+
+@media only screen and (max-width:485px){
+	body{
+	 font-size: 15px;
+	}
+
+	nav {
+		margin: 0;
+		height: 120px;
+	}
+
+	nav a {
+	 display: block;
+     height: 20px;
+     width: 102px;
+     padding: 2em 0;
+ }
+
+ 	nav a:hover{
+ 		border-bottom: none;
+ 	}
+
+	#landing #rock {
+		margin-left: -4%;
+	}
+
+	.container{
+		width:100%;
+	}
+	#bio h3{
+		font-size: 1em;
+		width: 70%;
+	}
+	#bio ul {
+		width: 70%;
+	}
+	#bio ul li{
+	 float: none;
+	 width: 100%;
+	 margin-bottom: 3%;	
+	 font-size: .9em;
+	}
+	.container{
+		width: 90%;
+	}
+	.button{
+		width:100%;
+	}
+	#stack li{
+		float: none;
+		width:100%;
+		margin-bottom: 3%;
+	}
+	#sound img{
+		min-width: 150px;
+	}
+	.videos{
+		width:95%;
+	}
+
+	#ninos #bio{
+		margin-top: 60%;
+	}
+
+	#ninos ul {
+		margin: -30% 0 0 20%;
+	}	
+
+	#ninos ul li a{
+		margin-bottom: 15px;
+		display: block;
+    	float: none;
+	}
+
+	#calendar table{
+		top:0%;
+		margin-top: 130px;
+		transform: translateY(0%);
+		width:95%;
+		height:200px;
+		font-size: .75em;
+	}
+	#calendar{
+		max-height: 370px;
+	}
+	#ninos{
+	height: auto;
+	min-height: 850px;
+   }
+    #sound{
+    min-height: 620px;
+    max-height: 650px;
+   }
+   #landing{
+   min-height: 500px;
+  }
+  #bio{
+  	top:80px;
+  	transform: translateY(0%);
+  }
+  footer ul{
+  	font-size: .9em;
+  	width:90%;
+  }
+}
+
+@media only screen and (max-width: 350px){
+
+ body {
+  	font-size: 12px;
+  }
+
+  #landing #rock {
+  	margin-left: -7%;
+
+  }
+
+  #sound img{
+  	min-width:275px;
+  	margin: -25% auto 9% 29%;
+  }
+
+  #ninos ul {
+	margin: -28% auto;
+} 
+  footer{
+  max-height: none;
+  height: 350px;
+  }
+
+  footer ul{
+  	font-size:.9em;
+  	top:80px;
+    transform: translateY(0%);
+   }
+
+}
