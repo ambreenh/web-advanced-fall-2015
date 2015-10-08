@@ -17,27 +17,28 @@ var userFeed = new Instafeed({
 userFeed.run();
 */
 
+/*
 Get images by location
 var feed = new Instafeed({
-    clientId: 'YOUR_CLIENT_ID',
+    clientId: '3a7acfb1babd47128d93a2cb21e7d32d',
     get: 'location',
-    locationId: 54115074
+    locationId: 2862169
 });
 feed.run();
+*/
 
-
-/* create two separate instances of Instafeed
+/*
 var tag1Feed = new Instafeed({
     target: 'tag1Feed',
     get: 'tagged',
     tagName: 'yoga',
-    clientId: 'YOUR_CLIENT_ID',
+    clientId: '3a7acfb1babd47128d93a2cb21e7d32d',
 });
 var tag2Feed = new Instafeed({
     target: 'tag2Feed',
     get: 'tagged',
     tagName: 'running',
-    clientId: 'YOUR_CLIENT_ID',
+    clientId: '3a7acfb1babd47128d93a2cb21e7d32d',
 });
 
 // run both feeds
@@ -49,10 +50,9 @@ tag2Feed.run();
 to 
 <div id="tag1Feed"></div> 
 <div id="tag2Feed"></div>
-
 */
 
-/*
+
 function getMultipleTags (tags) {
     var feeds = [];
     for (var i=0, len=tags.length; i < len; i++) {
@@ -71,4 +71,3 @@ var myTags = getMultipleTags(['new york', 'paris', 'london']);
 for(var i=0, len=myTags.length; i < len; i++) {
     myTags[i].run();
 }
-*/
