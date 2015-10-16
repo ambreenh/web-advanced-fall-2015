@@ -17,15 +17,14 @@ var userFeed = new Instafeed({
 userFeed.run();
 */
 
-/*
+
 Get images by location
 var feed = new Instafeed({
     clientId: '3a7acfb1babd47128d93a2cb21e7d32d',
     get: 'location',
-    locationId: 2862169
+    locationId: 46371155
 });
 feed.run();
-*/
 
 /*
 var tag1Feed = new Instafeed({

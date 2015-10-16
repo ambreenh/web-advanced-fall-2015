@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web Advanced Fall 2015</title>
+		<link rel="icon" href="http://www.jwmatch.com/favicon.ico">
+		<meta name="description" content="Web Advanced Week 6">
+		<meta name="keywords" content="HTML,CSS,Responsive Design, Javascript">
+		<link href="http://fonts.googleapis.com/css?family=Questrial|Roboto:400,500,900,700|Unna|Lovers+Quarrel" rel="stylesheet">	
+		<link href="./styles/style.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="http://momentjs.com/downloads/moment.js"></script>
+		<script src="./scripts/script.js"></script>
+	</head>
+
+	<body>
+		<nav>
+			<a href="#">Home</a>
+			<a href="pages/login.html">Log In</a>
+			<a href="pages/login2.html">Login 2</a>
+		</nav>
+
+		<div id="container">
+			<div id="col1">
+				<h1>JS Syntax</h1>
+
+				<p>
+					A computer program is a list of "instructions" to be "executed" by the computer. In a programming language, these program instructions are called statements. JavaScript is a programming language. JavaScript statements are separated by semicolons.
+
+					JavaScript statements are composed of:
+					Values (literals, values), Operators ( '='), Expressions (computation with values), Keywords (actions to be performed), and Comments.
+				</p>
+
+				<!--<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>-->
+
+				<button id="date-display">Click me to display date</button>
+
+				<p id="demo"></p>
+
+				<p id="demo2">Give me an example of a literal.</p>
+
+				<button onclick="document.getElementById('demo2').innerHTML = '28'">Click Me!</button>
+
+
+			</div>
+
+			<div id="col2" class="orange">
+				<h1>JS Best Practices</h1>
+
+				<p>
+					<em>// Declare at the beginning <br>
+					var firstName, lastName, price, discount, fullPrice;<br>
+					<br>
+					// Use later<br>
+					firstName = "John";<br>
+					lastName = "Doe";<br>
+					<br>
+					price = 19.90;<br>
+					discount = 0.10;<br>
+					<br>
+					fullPrice = price * 100 / discount;<br>
+					</em>
+
+					<button id="color-change">click me now!</button>
+				</p>
+
+				
+
+			</div>
+
+			<div id="col3">
+				<h1>JS Function Calls</h1>
+
+				<p>The code inside the function will execute when "something" invokes (calls) the function</p>
+
+				<em>
+					function functionName(parameters) {<br>
+  						code to be executed<br>
+					}
+				</em>
+				<br>
+				<br>
+				<em>
+					(function () {<br>
+    					var x = "Hello!!";      // I will invoke myself<br>
+					})();
+				</em>
+				
+			</div>
+
+		</div>
+	</body>
+
+</html>
