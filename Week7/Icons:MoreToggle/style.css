@@ -1,0 +1,48 @@
+/*NAVIGATION*/
+nav a {
+  display: inline-block;
+  background: url("https://lh6.googleusercontent.com/-ImfwnK13pGw/Ui7ndohdbeI/AAAAAAAAB94/mkMwWrLrrP0/s924/mini-social-icons.png") no-repeat 0 -84px;
+  width: 84px;
+  height: 84px;
+  text-indent: -99999px;
+  margin: .5%;
+  transition:all 0.2s ease 0s;
+}
+
+nav #facebook {
+  background-position: 0 -168px;
+}
+
+nav a#facebook:hover {
+  background-position: 0 -84px;
+}
+
+nav #twitter {
+  background-position: -672px -168px;
+}
+
+nav a#twitter:hover {
+  background-position: -672px -84px;
+}
+
+nav #pinterest {
+  background-position: -420px -168px;
+}
+
+nav a#pinterest:hover {
+  background-position: -420px -84px;
+}
+
+
+/*READ MORE*/
+
+div {
+  margin: 2% 0;
+}
+
+.morecontent div {
+    display: none;
+}
+.morelink {
+    display: block;
+}
