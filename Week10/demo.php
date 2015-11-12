@@ -18,8 +18,14 @@ $value3 = $_POST['email'];
 $value4 = $_POST['bio'];
 $value5 = $_POST['password'];
 
+$salt = bin2hex(mcrypt_create_iv(32, MCRYPT_DEV_URANDOM));
+
+$saltedPW =  $value5 . $salt;
+
+$hashedPW = hash('sha256', $saltedPW);
+
 $sql = "INSERT INTO newsletter (firstname, lastname, email, bio, password, date)
-VALUES ('$value1', '$value2', '$value3', '$value4', HASHBYTES('SHA2_512', $value5) CURRENT_TIMESTAMP)";
+VALUES ('$value1', '$value2', '$value3', '$value4', '$hashedPW', CURRENT_TIMESTAMP)";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

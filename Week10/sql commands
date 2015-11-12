@@ -10,17 +10,17 @@ CREATE DATABASE app_register;
 SHOW DATABASES;
 
 *CREATING A TABLE*
-USE X;
+USE [DATABASE_YOU_WANT_TO_USE];
 CREATE TABLE IF NOT EXISTS register (
-	id int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-	reg_date TIMESTAMP,
+    id int(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    reg_date TIMESTAMP,
     firstname varchar(30) NOT NULL,
     lastname varchar(30) NOT NULL,
     email varchar(50),
     bio TEXT(255)
 );
 
-show columns in Y;
+show columns in [TABLE_NAME];
 
 
 *ADDING/DROPPING A COLUMN INTO DATABASE*
