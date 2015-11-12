@@ -14,18 +14,20 @@ if ($conn->connect_error) {
 
 $value1 = $_POST['firstname'];
 $value2 = $_POST['lastname'];
-$value3 = $_POST['email'];
-$value4 = $_POST['bio'];
-$value5 = $_POST['password'];
+$value3 = $_POST['borough'];
+$value4 = implode(",",$_POST['interests']);
+$value5 = $_POST['email'];
+$value6 = $_POST['bio'];
+$value7 = $_POST['password'];
 
 $salt = bin2hex(mcrypt_create_iv(32, MCRYPT_DEV_URANDOM));
 
-$saltedPW =  $value5 . $salt;
+$saltedPW =  $value7 . $salt;
 
 $hashedPW = hash('sha256', $saltedPW);
 
-$sql = "INSERT INTO newsletter (firstname, lastname, email, bio, password, date)
-VALUES ('$value1', '$value2', '$value3', '$value4', '$hashedPW', CURRENT_TIMESTAMP)";
+$sql = "INSERT INTO newsletter (firstname, lastname, borough, interests, email, bio, password, date)
+VALUES ('$value1', '$value2', '$value3', '$value4', '$value5', '$value6','$hashedPW', CURRENT_TIMESTAMP)";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
