@@ -25,6 +25,8 @@ show columns in Y;
 
 *ADDING/DROPPING A COLUMN INTO DATABASE*
 ALTER TABLE register ADD picture varbinary(39578) NULL AFTER bio;
+ALTER TABLE register ADD password binary(64) NOT NULL AFTER picture;
+
 
 ALTER TABLE register DROP picture; 
 
