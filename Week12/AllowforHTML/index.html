@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form submission</title>
+    </head>
+
+    <body>
+        <form action="demo.html" method="post">
+            First Name: <input type="text" name="firstname"><br>
+            Last Name: <input type="text" name="lastname"><br>
+            Borough: <select name="borough">
+                    <option value="manhattan">Manhattan</option>
+                    <option value="bronx">Bronx</option>
+                    <option value="brooklyn">Brooklyn</option>
+                    <option value="queens">Queens</option>
+                    <option value="staten_island">Staten Island</option>
+                   </select>
+
+            Interests: <select name="interests[]" multiple size="3" >
+                        <option value="coding">Coding</option>
+                        <option value="designing">Designing</option>
+                        <option value="research">Research</option>
+                    </select>
+            Email: <input type="text" name="email"><br>
+            Bio:<br><textarea rows="5" name="bio" cols="30"></textarea><br>
+            Password:<input type="password" name="password">
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+    </body>
+</html> 

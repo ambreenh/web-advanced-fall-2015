@@ -36,7 +36,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 //Formulate Query
-$query = sprintf("SELECT firstname, lastname, borough FROM test.newsletter");
+$query = sprintf("SELECT firstname, lastname, borough, interests, email, bio FROM test.newsletter");
 
 // Perform Query
 $result = mysql_query($query);
@@ -60,6 +60,12 @@ while ($row = mysql_fetch_assoc($result)) {
     echo $row['lastname'];
     echo '<br>';
     echo $row['borough'];
+    echo '<br>';
+    echo $row['interests'];
+    echo '<br>';
+    echo $row['email'];
+    echo '<br>';
+    echo $row['bio'];
     echo '<br>';
     echo '<br>';
 }
