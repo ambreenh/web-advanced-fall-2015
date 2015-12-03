@@ -36,7 +36,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 //Formulate Query
-$query = sprintf("SELECT firstname, lastname, borough, interests, email, bio FROM test.newsletter");
+$query = sprintf("SELECT * FROM test.newsletter;");
 
 // Perform Query
 $result = mysql_query($query);
